@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/CarPedia/', // 🔴 MUST match repo name EXACTLY
+  base: '/Speedopedia/', // 🔴 MUST match repo name exactly
 })
