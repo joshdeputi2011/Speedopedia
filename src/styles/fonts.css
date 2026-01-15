@@ -1,0 +1,26 @@
+/* Racing-inspired typography */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Rajdhani:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+:root {
+  --font-racing: 'Orbitron', sans-serif;
+  --font-speed: 'Rajdhani', sans-serif;
+  --font-body: 'Inter', sans-serif;
+}
+
+body {
+  font-family: var(--font-body);
+}
+
+/* Speed-inspired headings */
+.racing-title {
+  font-family: var(--font-racing);
+  font-style: italic;
+  letter-spacing: 0.02em;
+}
+
+.speed-title {
+  font-family: var(--font-speed);
+  font-weight: 700;
+  font-style: italic;
+  letter-spacing: 0.01em;
+}
